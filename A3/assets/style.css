@@ -1,0 +1,66 @@
+.work{
+	background-color:purple;
+	color:green;
+	font-size: 20px
+}
+
+.p{
+font-size: 100px;
+color: green;
+}
+
+#title{
+font-size: 100px;
+color: green;
+/* I used text shadow as my new element we did not use in class*/
+text-shadow:1px 2px 1px purple, 2px 1px 1px purple, 2px 3px 2px purple, 3px 2px 2px purple, 3px 4px 2px purple, 4px 3px 3px #5dabcd, 4px 5px 3px purple, 5px 4px 2px #5dabcd, 5px 6px 2px #378ab4, 6px 5px 2px #5dabcd, 6px 7px 1px #378ab4, 7px 6px 1px #5dabcd, 7px 8px #378ab4, 8px 7px purple;
+text-align: center;
+}
+
+.setBlock{	display: block;
+			background-color: green;
+			border-color:purple;
+			border-style: solid;
+			border-width:7px;
+			height: 40px;
+			margin:auto;
+			width: 250px;
+			font-size:30px;
+			font-family: 'Luminari', fantasy;
+			color:purple;
+			text-align: center;
+}
+
+body{
+	background-color: #E6CCFF
+}
+
+a:link{
+text-decoration: none;
+}
+
+a:hover{
+	color: blue;
+	border-style: solid;
+    border-width: 1px;
+    border-color: blue
+}
+
+p{
+font-family: 'Courier New', Monospace;
+font-size: 20px;
+}
+
+#center{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+}
+
+.address{
+color:green;
+font-size: 20px
+}
+
+
