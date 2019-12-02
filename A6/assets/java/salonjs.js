@@ -17,7 +17,6 @@ $("button.long").click(function(){
 }); 
 //end of hair length
 
-
 //hair color
 $("div.blonde").click(function(){
 	var hairBlonde = 100
