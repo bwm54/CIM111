@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Grid Areas Example: From Scratch</title>
+</head>
+<body>
+
+ 
+
+    <div class="container">
+        <header>HEADER</header>
+        <nav>NAVIGATION</nav>
+        <article>ARTICLE</article>
+        <aside>ASIDE</aside>
+        <footer>FOOTER</footer>
+    </div><!-- closing container --> 
+
+ 
+
+<style>
+
+ 
+
+    .container{
+        display: grid;
+        grid-template-rows: 100px 25px 400px 200px 100px; 
+        grid-template-areas: "header"
+                             "nav"
+                             "article"
+                             "aside"
+                             "footer";
+    }
+
+ 
+
+    header{
+        grid-area: header;
+        background-color: blue;
+    }
+
+ 
+
+    nav{
+        grid-area: nav;
+        background-color: pink;
+    }
+
+ 
+
+    article{
+        grid-area: article;
+        background-color: yellow;
+    }
+
+ 
+
+    aside{
+        grid-area: aside;
+        background-color: orange;
+    }
+
+ 
+
+    footer{
+        grid-area: footer;
+        background-color: black;
+    }
+    
+</style>
+
+ 
+
+
+</body>
+</html>
