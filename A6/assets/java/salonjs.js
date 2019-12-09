@@ -141,27 +141,8 @@ $("div.blowdry").mouseout(function(){
 
 
 
-var cumstomer = prompt("Have you been to our salon before? 'Yes or No'");
-
-	if (cumstomer === "yes"){
-		console.log("Returning Customer")
-		alert("Welcome Back!" );
-	}
-	if (cumstomer === "no"){
-		console.log("New Customer")
-		alert("Welcome New Customer!" );
-	}
-
-
 //confirm
-$("button.confirm").click(function(){
-	alert("Confirmed!")
-});
+
 //end confirm
 
-
-
-
-
 });
- 

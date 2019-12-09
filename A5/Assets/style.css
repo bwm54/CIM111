@@ -86,7 +86,6 @@ a:hover{
 
 a:link {
     color: blue;
-
 }
 
 a:visited {
@@ -107,7 +106,6 @@ a:visited {
     margin: 3%;
     font-size: 22px;
     font-family: 'Josefin Slab', serif;
-
 }
 
 
@@ -153,7 +151,7 @@ footer{
     }
 .aboutuspage{
     background-color:#CBFEF9;
-    }
+    } 
 .gallerypage{
     background-color: #87CEFA;
 
